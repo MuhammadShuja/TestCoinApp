@@ -2,9 +2,7 @@ package com.test.coinapp.retrofit.response;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
-
-public class Quote implements Serializable {
+public class Quote {
 
     @SerializedName("USD")
     private USD uSD;

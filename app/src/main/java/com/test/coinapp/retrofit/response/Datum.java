@@ -2,9 +2,7 @@ package com.test.coinapp.retrofit.response;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
-
-public class Datum implements Serializable {
+public class Datum {
 
     @SerializedName("id")
     private Integer id;

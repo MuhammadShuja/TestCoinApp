@@ -3,11 +3,10 @@ package com.test.coinapp.retrofit.response;
 import com.google.gson.annotations.SerializedName;
 import com.test.coinapp.room.Coin;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CryptoList implements Serializable {
+public class CryptoList {
     @SerializedName("status")
     private Status status;
 

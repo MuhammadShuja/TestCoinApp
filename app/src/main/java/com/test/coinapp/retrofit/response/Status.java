@@ -2,9 +2,7 @@ package com.test.coinapp.retrofit.response;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
-
-public class Status implements Serializable {
+public class Status {
     @SerializedName("timestamp")
     private String timestamp;
 
